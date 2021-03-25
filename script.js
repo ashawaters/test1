@@ -87,9 +87,31 @@ function guess(btn){
     return;
   }
 
-  // add game logic here
-}
+   if(!gamePlaying){
+    return;
+  }
 
+  if(pattern[guessCounter] == btn){
+    //Guess was correct!
+    if(guessCounter == progress){
+      if(progress == pattern.length - 1){
+        //GAME OVER: WIN!
+        winGame();
+      }else{
+        //Pattern correct. Add next segment
+        progress++;
+        playClueSequence();
+      }
+    }else{
+      //so far so good... check the next guess
+      guessCounter++;
+    }
+  }else{
+    //Guess was incorrect
+    //GAME OVER: LOSE!
+    loseGame();
+  }
+}
 
 
 
