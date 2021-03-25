@@ -23,7 +23,7 @@ function startGame(){
 }
 
 function stopGame(){
-    gamePlaying = false;
+  gamePlaying = false;
   document.getElementById("startBtn").classList.remove("hidden");
   document.getElementById("stopBtn").classList.add("hidden");
 }

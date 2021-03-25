@@ -17,7 +17,7 @@
     <h1>Memory Game: Light and Sound</h1>
     
     <p>
-      Welcome to the Memory Game! Let the games begin!
+      Welcome to the Memory Game! Repeat the pattern to win...let the games begin!
     </p>
     
     <button id="startBtn" onclick="startGame()">
@@ -28,12 +28,11 @@
     </button>
     
     <div id="gameButtonArea">
-      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone(1)"></button>
-      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone(2)"></button>
-      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone(3)"></button>
-      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone(4)"></button>
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
     </div>
-
 
 
   </body>
