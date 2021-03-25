@@ -6,7 +6,7 @@ Submitted by: **Asha Waters**
 
 Time spent: **3** hours spent in total
 
-Link to project: https://glitch.com/edit/#!/innate-cubic-bike
+Link to project: https://glitch.com/edit/#!/site-waters
 
 ## Required Functionality
 
